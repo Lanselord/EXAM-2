@@ -1,0 +1,42 @@
+.after {
+
+    .after__div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 130px;
+    }
+
+    .after__h5 {
+        color: var(--color-qora);
+        font-family: "Roboto";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        margin: 0;
+        padding: 0; 
+    }
+
+    .after__text {
+        color: var(--color-qora);
+        font-family: "Roboto";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        opacity: 0.7;
+
+        &:hover {
+            color: var(--color-kok);
+        }
+    }
+}
+
+@media only screen and (max-width: 805px) {
+
+    .after__div {
+        flex-direction: column;
+        text-align: center;
+    }
+}
